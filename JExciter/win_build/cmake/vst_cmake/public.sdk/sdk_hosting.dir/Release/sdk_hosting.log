@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/Jordan/Documents/ASPIK/ALL_SDK/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt
+  connectionproxy.cpp
+  eventlist.cpp
+  hostclasses.cpp
+  module.cpp
+  parameterchanges.cpp
+  pluginterfacesupport.cpp
+  processdata.cpp
+  stringconvert.cpp
+  vstinitiids.cpp
+  Generating Code...
+  sdk_hosting.vcxproj -> C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\win_build\lib\Release\sdk_hosting.lib

@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/Jordan/Documents/ASPIK/ALL_SDK/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt
+  commoniids.cpp
+  openurl.cpp
+  systemclipboard_win32.cpp
+  threadchecker_linux.cpp
+  threadchecker_win32.cpp
+  vstpresetfile.cpp
+  Generating Code...
+  sdk_common.vcxproj -> C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\win_build\lib\Release\sdk_common.lib

@@ -1,0 +1,74 @@
+﻿  Building Custom Rule C:/Users/Jordan/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/uidescription/CMakeLists.txt
+  compresseduidescription.cpp
+C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\vstgui4\vstgui\uidescription\miniz/miniz.c(2378,139): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  cstream.cpp
+  uiattributes.cpp
+  uidescription.cpp
+  uiviewcreator.cpp
+  uiviewfactory.cpp
+  uiviewswitchcontainer.cpp
+  xmlparser.cpp
+  uiactions.cpp
+  uiattributescontroller.cpp
+  uibitmapscontroller.cpp
+  uicolor.cpp
+  uicolorchoosercontroller.cpp
+  uicolorscontroller.cpp
+  uicolorslider.cpp
+  uicrosslines.cpp
+  uidialogcontroller.cpp
+  uieditcontroller.cpp
+  uieditmenucontroller.cpp
+  uieditview.cpp
+  Generating Code...
+  Compiling...
+  uifocussettingscontroller.cpp
+  uifontscontroller.cpp
+  uigradientscontroller.cpp
+  uigridcontroller.cpp
+  uioverlayview.cpp
+  uiselection.cpp
+  uitagscontroller.cpp
+  uitemplatecontroller.cpp
+  uitemplatesettingscontroller.cpp
+  uiundomanager.cpp
+  uiviewcreatecontroller.cpp
+  animationsplashscreencreator.cpp
+  animknobcreator.cpp
+  checkboxcreator.cpp
+  controlcreator.cpp
+  gradientviewcreator.cpp
+  kickbuttoncreator.cpp
+  knobcreator.cpp
+  layeredviewcontainercreator.cpp
+  moviebitmapcreator.cpp
+  Generating Code...
+  Compiling...
+  moviebuttoncreator.cpp
+  multibitmapcontrolcreator.cpp
+  multilinetextlabelcreator.cpp
+  onoffbuttoncreator.cpp
+  optionmenucreator.cpp
+  paramdisplaycreator.cpp
+  rockerswitchcreator.cpp
+  rowcolumnviewcreator.cpp
+  scrollviewcreator.cpp
+  searchtexteditcreator.cpp
+  segmentbuttoncreator.cpp
+  shadowviewcontainercreator.cpp
+  sliderviewcreator.cpp
+  splitviewcreator.cpp
+  stringlistcontrolcreator.cpp
+  switchcreators.cpp
+  textbuttoncreator.cpp
+  texteditcreator.cpp
+  textlabelcreator.cpp
+  uiviewswitchcontainercreator.cpp
+  Generating Code...
+  Compiling...
+  viewcontainercreator.cpp
+  viewcreator.cpp
+  vumetercreator.cpp
+  xypadcreator.cpp
+  Generating Code...
+  vstgui_uidescription.vcxproj -> C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\win_build\lib\Release\vstgui_uidescription.lib

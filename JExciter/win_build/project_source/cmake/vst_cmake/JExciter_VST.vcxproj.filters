@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\pluginbase.cpp">
+      <Filter>PluginKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\plugincore.cpp">
+      <Filter>PluginKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\plugingui.cpp">
+      <Filter>PluginKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\pluginparameter.cpp">
+      <Filter>PluginKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\vst_source\factory.cpp">
+      <Filter>VST3Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\vst_source\customparameters.cpp">
+      <Filter>VST3Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\vst_source\vst3plugin.cpp">
+      <Filter>VST3Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\CustomControls\customcontrols.cpp">
+      <Filter>CustomVSTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\CustomControls\customviews.cpp">
+      <Filter>CustomVSTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\VST_SDK\VST3_SDK\public.sdk\source\vst\vstsinglecomponenteffect.cpp">
+      <Filter>VST3SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\VST_SDK\VST3_SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\project_source\source\PluginKernel\LinkwitzRiley2ndOrder.cpp">
+      <Filter>PluginKernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\guiconstants.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\pluginbase.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\plugincore.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\plugindescription.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\plugingui.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\pluginparameter.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\PluginKernel\pluginstructures.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\vst_source\customparameters.h">
+      <Filter>VST3Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\vst_source\channelformats.h">
+      <Filter>VST3Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\vst_source\vst3plugin.h">
+      <Filter>VST3Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\CustomControls\atomicops.h">
+      <Filter>CustomVSTGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\CustomControls\customcontrols.h">
+      <Filter>CustomVSTGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\CustomControls\readerwriterqueue.h">
+      <Filter>CustomVSTGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\source\CustomControls\customviews.h">
+      <Filter>CustomVSTGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\VST_SDK\VST3_SDK\public.sdk\source\vst\vstsinglecomponenteffect.h">
+      <Filter>VST3SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\project_source\source\PluginKernel\LinkwitzRiley2ndOrder.h">
+      <Filter>PluginKernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\cmake\vst_cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\resources\PluginGUI.uidesc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\project_source\win\vst\PluginGUIMain.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CustomVSTGUI">
+      <UniqueIdentifier>{84E64016-B0FB-3300-983C-CDD3BE4B1EBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginKernel">
+      <UniqueIdentifier>{69EF9C11-7C1B-351A-858D-0FFD710BE6D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{760D9766-8666-33DF-AA3C-CB04072A9E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VST3Core">
+      <UniqueIdentifier>{0AABF754-107C-30EA-A7BA-CFC85B6279A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VST3SDK">
+      <UniqueIdentifier>{A6EE052F-9BC7-35AD-9F2C-F1F5F51A7459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

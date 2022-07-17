@@ -1,0 +1,54 @@
+Target dependency graph (15 targets)
+vstgui in JExciter_UNIVERSAL, no dependencies
+vstgui_uidescription in JExciter_UNIVERSAL, depends on:
+vstgui in JExciter_UNIVERSAL (explicit)
+JExciter_AU_CocoaUI in JExciter_UNIVERSAL, no dependencies
+vstgui_support in JExciter_UNIVERSAL, depends on:
+vstgui in JExciter_UNIVERSAL (explicit)
+vstgui_uidescription in JExciter_UNIVERSAL (explicit)
+pluginterfaces in JExciter_UNIVERSAL, no dependencies
+base in JExciter_UNIVERSAL, no dependencies
+sdk_common in JExciter_UNIVERSAL, depends on:
+pluginterfaces in JExciter_UNIVERSAL (explicit)
+base in JExciter_UNIVERSAL (explicit)
+sdk_hosting in JExciter_UNIVERSAL, depends on:
+pluginterfaces in JExciter_UNIVERSAL (explicit)
+base in JExciter_UNIVERSAL (explicit)
+sdk_common in JExciter_UNIVERSAL (explicit)
+sdk in JExciter_UNIVERSAL, depends on:
+pluginterfaces in JExciter_UNIVERSAL (explicit)
+base in JExciter_UNIVERSAL (explicit)
+sdk_common in JExciter_UNIVERSAL (explicit)
+validator in JExciter_UNIVERSAL, depends on:
+sdk_hosting in JExciter_UNIVERSAL (explicit)
+pluginterfaces in JExciter_UNIVERSAL (explicit)
+base in JExciter_UNIVERSAL (explicit)
+sdk_common in JExciter_UNIVERSAL (explicit)
+JExciter_VST in JExciter_UNIVERSAL, depends on:
+vstgui in JExciter_UNIVERSAL (explicit)
+vstgui_uidescription in JExciter_UNIVERSAL (explicit)
+vstgui_support in JExciter_UNIVERSAL (explicit)
+sdk in JExciter_UNIVERSAL (explicit)
+pluginterfaces in JExciter_UNIVERSAL (explicit)
+base in JExciter_UNIVERSAL (explicit)
+sdk_common in JExciter_UNIVERSAL (explicit)
+JExciter_AU in JExciter_UNIVERSAL, no dependencies
+uidesccompressor in JExciter_UNIVERSAL, depends on:
+vstgui in JExciter_UNIVERSAL (explicit)
+vstgui_uidescription in JExciter_UNIVERSAL (explicit)
+ZERO_CHECK in JExciter_UNIVERSAL, no dependencies
+ALL_BUILD in JExciter_UNIVERSAL, depends on:
+vstgui in JExciter_UNIVERSAL (explicit)
+vstgui_uidescription in JExciter_UNIVERSAL (explicit)
+JExciter_AU_CocoaUI in JExciter_UNIVERSAL (explicit)
+vstgui_support in JExciter_UNIVERSAL (explicit)
+sdk_hosting in JExciter_UNIVERSAL (explicit)
+sdk in JExciter_UNIVERSAL (explicit)
+pluginterfaces in JExciter_UNIVERSAL (explicit)
+base in JExciter_UNIVERSAL (explicit)
+sdk_common in JExciter_UNIVERSAL (explicit)
+validator in JExciter_UNIVERSAL (explicit)
+JExciter_VST in JExciter_UNIVERSAL (explicit)
+JExciter_AU in JExciter_UNIVERSAL (explicit)
+uidesccompressor in JExciter_UNIVERSAL (explicit)
+ZERO_CHECK in JExciter_UNIVERSAL (explicit)

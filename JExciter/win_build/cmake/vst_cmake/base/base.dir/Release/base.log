@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/Jordan/Documents/ASPIK/ALL_SDK/VST_SDK/VST3_SDK/base/CMakeLists.txt
+  baseiids.cpp
+  fbuffer.cpp
+  fdebug.cpp
+  fdynlib.cpp
+  fobject.cpp
+  fstreamer.cpp
+  fstring.cpp
+  timer.cpp
+  updatehandler.cpp
+  fcondition.cpp
+  flock.cpp
+  Generating Code...
+  base.vcxproj -> C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\win_build\lib\Release\base.lib

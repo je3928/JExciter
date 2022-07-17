@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/Jordan/Documents/ASPIK/ALL_SDK/myprojects/JExciter/cmake/vst_cmake/CMakeLists.txt
+  vst3groupcontroller.cpp
+  vst3padcontroller.cpp
+  vst3editor.cpp
+C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\vstgui4\vstgui\plugin-bindings\vst3editor.cpp(1279,8): warning C4189: 'cmdName': local variable is initialized but not referenced
+  vstguieditor.cpp
+  Generating Code...
+  vstgui_support.vcxproj -> C:\Users\Jordan\Documents\ASPIK\ALL_SDK\myprojects\JExciter\win_build\lib\Release\vstgui_support.lib

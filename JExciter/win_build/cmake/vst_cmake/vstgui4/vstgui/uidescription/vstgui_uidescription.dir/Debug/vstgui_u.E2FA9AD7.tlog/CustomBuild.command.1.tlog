@@ -1,0 +1,10 @@
+^C:\USERS\JE050\DOCUMENTS\ASPIK\ALL_SDK\MYPROJECTS\VSTGUI4\VSTGUI\UIDESCRIPTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/je050/Documents/ASPIK/ALL_SDK/myprojects/JExciter -BC:/Users/je050/Documents/ASPIK/ALL_SDK/myprojects/JExciter/win_build --check-stamp-file C:/Users/je050/Documents/ASPIK/ALL_SDK/myprojects/JExciter/win_build/cmake/vst_cmake/vstgui4/vstgui/uidescription/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

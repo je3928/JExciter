@@ -1,0 +1,100 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df3e798d4e966f547cb925de572a6f1749"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df8f86cbb0bafbba566991ed622e8fcd18"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3dff5df3557417ab16f7711e710f5346957"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df96087b89bdbb60541414db499416c157"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3dfdda5eb6e813d15d3e32df081ee895d2c"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3dff2bb334e95a5b3d84f9abccf0ee0fc70"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df16cbcc0960a2123bf5c69ae544c098f6"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df75e1b55927c525ceb11e0a81947a43d5"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3dfd40a44e91d1d441291e6dcad489f2668"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df64453c27b2deac0136047c40032fc81b"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df60ac52caf2b0048d6d53a26ab4428a3f"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df08ebda15ad760efc5c988b075cc22991"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df13e5ea84eb121200d4814e3a0cbbffe4"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df02e00ee5ef41b4edc5bd3050dc870c74"
+    },
+    {
+      "guid" : "09eaebe25c4bd152e434f9cb666fa3df35f0f7946c22bff6f788b6bc4965f396"
+    }
+  ],
+  "containerPath" : "/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/JExciter_UNIVERSAL.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jordanevans/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jordanevans/Library/Developer/Xcode/DerivedData/JExciter_UNIVERSAL-dpnlmewoxnipecggrgafuhnruood/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jordanevans/Library/Developer/Xcode/DerivedData/JExciter_UNIVERSAL-dpnlmewoxnipecggrgafuhnruood/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

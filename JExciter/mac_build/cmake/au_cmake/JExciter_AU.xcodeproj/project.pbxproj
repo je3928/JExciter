@@ -1,0 +1,1105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CC8AA7A74DFE4A4DBB2024B2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B3399D5D14B497A93A10623 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CCA1B17BEB976A226A09B8EB /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1EA5B292E0C34368AB5A32E5 /* PBXTargetDependency */,
+				F1E668AECD414517ADD138C3 /* PBXTargetDependency */,
+				B2DAAB14CE504F098205FCD3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D20D2ACBB8AF404097FD6E4F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC94C2EF1AC144DC82744458 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				79BD6D5AE3C8F65617B86416 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00C71C4D1F88468C9FEDC552 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginstructures.h */ = {isa = PBXBuildFile; fileRef = 6B48FD7E82454BF08144EB41 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginstructures.h */; };
+		013F950247044763AA36BB58 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUSilentTimeout.h */ = {isa = PBXBuildFile; fileRef = C3348525AA634027A6CB9B74 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUSilentTimeout.h */; };
+		01986818A9414FCAA369E829 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.h */ = {isa = PBXBuildFile; fileRef = 176ABFCF475B41828ECC8AB8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.h */; };
+		020E27E1682F4624A976640C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.cpp */ = {isa = PBXBuildFile; fileRef = 2F4A9F141389453E81CEBBC2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.cpp */; };
+		047893F8B1FC43B1B97F42C0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.h */ = {isa = PBXBuildFile; fileRef = 8C7ABFE6ACB64145AFE14922 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.h */; };
+		0894D5B4E43A43CC89500661 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.h */ = {isa = PBXBuildFile; fileRef = 9A5403E4E852411E877EB70D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.h */; };
+		08B43978CD3F4A2C8D046CCD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.h */ = {isa = PBXBuildFile; fileRef = 6FF2D11486854109B5622EBF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.h */; };
+		0A950613E1C84A70B51FD847 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.h */ = {isa = PBXBuildFile; fileRef = 6D7E7D24413D4DE09C158103 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.h */; };
+		0B28A163AD5E474A9DD4E06A /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.h */ = {isa = PBXBuildFile; fileRef = F7B5A4C9F28C4C6BB2C4A5D2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.h */; };
+		0E1C9E38B9FD4D5485A8AD01 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.h */ = {isa = PBXBuildFile; fileRef = 97D40F892F19413C96BD10AF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.h */; };
+		0F6F8A906B08462690C0AC70 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUMIDIDefs.h */ = {isa = PBXBuildFile; fileRef = 599684CBB8D5492AAC48D29F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUMIDIDefs.h */; };
+		10021ABCF085463DBDFF8565 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.cpp */ = {isa = PBXBuildFile; fileRef = 5F328591FDA74665A832DD5D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.cpp */; };
+		108E02593FE3401881173A2A /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomic.h */ = {isa = PBXBuildFile; fileRef = F523A23861D44F709B86991E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomic.h */; };
+		153423E509564DBCA007946D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.cpp */ = {isa = PBXBuildFile; fileRef = 61D53184941B45898600A3A0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.cpp */; };
+		1627327707F1485187748825 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.h */ = {isa = PBXBuildFile; fileRef = 3F282A50F8094BCE899C0A7D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.h */; };
+		168BEB48AEB543D08A43AC0D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.cpp */ = {isa = PBXBuildFile; fileRef = 9283E51F4D7E4D5E8CC6F517 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.cpp */; };
+		16E0D390476248E4A25EB3B9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.h */ = {isa = PBXBuildFile; fileRef = 1B1C9DF885144C8D96D7AB3E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.h */; };
+		18CAAE2074B542BBAB2F450E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.cpp */ = {isa = PBXBuildFile; fileRef = C6B091012FBD48ED9BF86127 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.cpp */; };
+		1DDD26031EB248DF882FF9A7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/MIDIControlHandler.h */ = {isa = PBXBuildFile; fileRef = ADAD44E0962741939B922BF0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/MIDIControlHandler.h */; };
+		1F8AD4D4854E448DACECC9DD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.cpp */ = {isa = PBXBuildFile; fileRef = 6F24931E7084462E86FCCDDC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.cpp */; };
+		20C97AC576584890B3DBEE99 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.h */ = {isa = PBXBuildFile; fileRef = BC3721D2ECA247ABB0E126BC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.h */; };
+		250035200E40483299743DB5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.cpp */ = {isa = PBXBuildFile; fileRef = 707442F02EB54A078B45AD4E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.cpp */; };
+		2A8D366273094393A0CB4D01 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.cpp */ = {isa = PBXBuildFile; fileRef = 21F0BAC7CD0E49EAB3791D0C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.cpp */; };
+		2E61D9EA2D4A4557B766228F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.cpp */ = {isa = PBXBuildFile; fileRef = A75F429C23CB4D02B7F51022 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.cpp */; };
+		2F3772C1B03C498EAE3E1310 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAByteOrder.h */ = {isa = PBXBuildFile; fileRef = 78415DD2A9AD41C4A1730D10 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAByteOrder.h */; };
+		339413C3D6F64C4FB44DAB84 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.h */ = {isa = PBXBuildFile; fileRef = B84CDED35C1A4D8883B2D6EC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.h */; };
+		3704A4DFD0C941FC8CAE449E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.cpp */ = {isa = PBXBuildFile; fileRef = 4C3CE21F9C0A4CF295691A3F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.cpp */; };
+		37E5A5BD12A444ADAA044CA5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.cpp */ = {isa = PBXBuildFile; fileRef = 79ABD2E10D9444C2BE9F9F64 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.cpp */; };
+		38B57D2D8B154CD093B9C41E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugindescription.h */ = {isa = PBXBuildFile; fileRef = 50670534ABAB418691EB822A /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugindescription.h */; };
+		42E75405C78A4FD4B58FCEF8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.h */ = {isa = PBXBuildFile; fileRef = E578A6820300412EA34A6822 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.h */; };
+		43D061A55700437D9B040B77 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.h */ = {isa = PBXBuildFile; fileRef = 68E4D5F4D9AB4ECE8C32D9E7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.h */; };
+		455CE00F7E2E4B4594C46DDB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.h */ = {isa = PBXBuildFile; fileRef = C62C55F068F04817BEAFFE83 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.h */; };
+		46054200507343768BB3E5B0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.h */ = {isa = PBXBuildFile; fileRef = 3C585098D74F457DB841214C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.h */; };
+		46CAFB2B429B4CB1A5400179 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAThreadSafeList.h */ = {isa = PBXBuildFile; fileRef = CB102DA3045443B9AA12FA44 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAThreadSafeList.h */; };
+		4D5CCCABA4064CA8B748170F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMath.h */ = {isa = PBXBuildFile; fileRef = 97D0FBDE2938441AB31702AE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMath.h */; };
+		53258FE300924E07AC987AEB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthEvent.h */ = {isa = PBXBuildFile; fileRef = D70647BEC50F46CD820164D9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthEvent.h */; };
+		5385A1DC176A4ECB950F0E53 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAReferenceCounted.h */ = {isa = PBXBuildFile; fileRef = 5B4BE49A327F4A58A231F6C8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAReferenceCounted.h */; };
+		5C68134254DC41E1BD1E4B64 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_mac.mm */ = {isa = PBXBuildFile; fileRef = 8C7ADCFA119246EC9A8417C0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_mac.mm */; };
+		5E523D9FE3D148DB9BD7FF8C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.cpp */ = {isa = PBXBuildFile; fileRef = 2ECED65D91974BCABEA6F634 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.cpp */; };
+		6029DD45019641B8969162BE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.h */ = {isa = PBXBuildFile; fileRef = 02F37E58509643BF99C6D009 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.h */; };
+		63FC66BB4C3848A180BBBEF6 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.cpp */ = {isa = PBXBuildFile; fileRef = 5DBDEF0074814FDEBC20B071 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.cpp */; };
+		66A84B670E05440BAF21AAC9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.cpp */ = {isa = PBXBuildFile; fileRef = 8BF2F3272DAF485A9002E7FB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.cpp */; };
+		6D3CEE5423D64A39B72857E9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6890BA3B8A0C42A9A6DE173D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */; };
+		6FA53B70DE85485DBFF8726E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAutoDisposer.h */ = {isa = PBXBuildFile; fileRef = B40AAF5964FC4179A8304731 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAutoDisposer.h */; };
+		714631B20B9041C297A25D88 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.h */ = {isa = PBXBuildFile; fileRef = 0B562CD637EC469C99BF3BEE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.h */; };
+		74534F1F10784011BBFD0A8E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.cpp */ = {isa = PBXBuildFile; fileRef = C8DF74C48BEF4C15A76BC2B1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.cpp */; };
+		74C6BC2F711A4F60959F1615 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.h */ = {isa = PBXBuildFile; fileRef = 93B858CF18954E0DBCDB1A8D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.h */; };
+		74E11C38D240431EAC7FF587 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.cpp */ = {isa = PBXBuildFile; fileRef = A354ABFACC7843379D36E487 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.cpp */; };
+		7A83069081A74CC894ED7564 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.h */ = {isa = PBXBuildFile; fileRef = EF23D8186A2A44B890C59499 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.h */; };
+		81A24D18DD1343DBB82E002F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.cpp */ = {isa = PBXBuildFile; fileRef = CBB28A8B58F94896BD53B9F0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.cpp */; };
+		86F83A0D61E34425870323F1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.cpp */ = {isa = PBXBuildFile; fileRef = 8197C3EE2BA648D1A6E575A4 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.cpp */; };
+		88A738567EA44A5F84152933 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.cpp */ = {isa = PBXBuildFile; fileRef = A6AB91A4069A480C8B0A126C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.cpp */; };
+		8B7C7CF41F57482A9BB3C2D8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/atomicops.h */ = {isa = PBXBuildFile; fileRef = A0B98D09DF7E4D34A184C260 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/atomicops.h */; };
+		8F815E8E4A3B4A50B251B97E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.h */ = {isa = PBXBuildFile; fileRef = 2833381F46DB4F368A259715 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.h */; };
+		92CE3FD04E6D4FA4B80B322C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/readerwriterqueue.h */ = {isa = PBXBuildFile; fileRef = 57FC5A5D46814213B599B0F8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/readerwriterqueue.h */; };
+		98C228CF3D8C464CA0F7ACCB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.cpp */ = {isa = PBXBuildFile; fileRef = 599D151479314ADA8DB7A81E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.cpp */; };
+		99803921DA974E57ADA37CDF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.cpp */ = {isa = PBXBuildFile; fileRef = EC2E28B294E549999270CE79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.cpp */; };
+		9CF0619E0D0B4DA3B9E256CB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.h */ = {isa = PBXBuildFile; fileRef = F1D1D44034C0408A90665641 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.h */; };
+		9DACE1F285EB44EDAA0B859D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.cpp */ = {isa = PBXBuildFile; fileRef = BD7840C1C73F4734949FD915 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.cpp */; };
+		A1D047018B7F481C9E3E6D79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.h */ = {isa = PBXBuildFile; fileRef = 2BBF19C53FCD4449B0D63B53 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.h */; };
+		A568B6199C0D490F9BBF4EED /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.h */ = {isa = PBXBuildFile; fileRef = 0A6F6FA42CF9426B97AA0427 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.h */; };
+		A586A078FFDB4F808AE2FDDA /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.h */ = {isa = PBXBuildFile; fileRef = 7EBBBA208C5E4EEB8FC41227 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.h */; };
+		A6FCCA588CA642ADB130AE53 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/guiconstants.h */ = {isa = PBXBuildFile; fileRef = 9D8F8747E9F649F5B49A25BB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/guiconstants.h */; };
+		A8FC574772FC42DFA2C01E4E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.cpp */ = {isa = PBXBuildFile; fileRef = 45C6AFF6CDA84594A2764A40 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.cpp */; };
+		A95E03FC96554C4DA56DDB4C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.cpp */ = {isa = PBXBuildFile; fileRef = 157BF5C13F15428E9BA14D07 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.cpp */; };
+		ADF699D17F1846CA814E0BDC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.h */ = {isa = PBXBuildFile; fileRef = B8389C50C38148FB9998B4F9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.h */; };
+		AE5D567DB2C845A397B827FC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.cpp */ = {isa = PBXBuildFile; fileRef = B213D73D3DFD46D1901B6AEF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.cpp */; };
+		B74B42DD85514B66801096AD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.cpp */ = {isa = PBXBuildFile; fileRef = D51B21A34E064DC5BBD12696 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.cpp */; };
+		BBF3AD1D7B024D2C845D7CDD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.h */ = {isa = PBXBuildFile; fileRef = 2B2B30901D16437788A165FD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.h */; };
+		BC234E49BFC54590BEF41FDD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.cpp */ = {isa = PBXBuildFile; fileRef = 81C588F06C94478AAF6BAD56 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.cpp */; };
+		BC42BB78F5C2425EA429B077 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.h */ = {isa = PBXBuildFile; fileRef = 683D34AD40684A1E9DEF3CED /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.h */; };
+		BF45746A4BED40079AD6797C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.cpp */ = {isa = PBXBuildFile; fileRef = DEFBF21DC29443E695AE9248 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.cpp */; };
+		C52D7F183187419489789AE4 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.cpp */ = {isa = PBXBuildFile; fileRef = 92F7AE8E30024E9DB876A988 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.cpp */; };
+		C81F386CFEAD436DAC837D6C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3890E7EBD0C24F41BDB0159E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */; };
+		CA5BA6B8D53646F5AE115D61 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_uidescription_mac.mm */ = {isa = PBXBuildFile; fileRef = F71BB12D5EE248569115D149 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_uidescription_mac.mm */; };
+		CA7117A43079480AB994424D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CALogMacros.h */ = {isa = PBXBuildFile; fileRef = C5739ECFAC1248C0BCD540F5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CALogMacros.h */; };
+		CC493E8131584E10B0802DC9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.h */ = {isa = PBXBuildFile; fileRef = 6EAFE07642324584AD1FA4F7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.h */; };
+		CF2737BB4F0E450EB1C5A49D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomicStack.h */ = {isa = PBXBuildFile; fileRef = C2AFEB0BF50343A79D52CFFB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomicStack.h */; };
+		D0200E8A2A544942B13DCF54 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/cocoa_ui/aucocoaviewfactory.mm */ = {isa = PBXBuildFile; fileRef = E9B750AF7B2E4D2DBEBD2C91 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/cocoa_ui/aucocoaviewfactory.mm */; };
+		D0C0DF45A7604F29869F80D9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.cpp */ = {isa = PBXBuildFile; fileRef = 9550BCA3CB104B7BA270AC12 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.cpp */; };
+		D3FDF68D514C4A4C9156F90D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/resources/PluginGUI.uidesc */ = {isa = PBXBuildFile; fileRef = 0170E5DF054E4F038BB617D5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/resources/PluginGUI.uidesc */; };
+		D6645D5A47044B0194E4271F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.cpp */ = {isa = PBXBuildFile; fileRef = 99E95770EDF7471CA97FB9AB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.cpp */; };
+		D90BCDB8258F48C890B9ACF2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnitTypes.h */ = {isa = PBXBuildFile; fileRef = A900C20492A5471C8F8DB4FD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnitTypes.h */; };
+		DCBA9E22409B419480853BE4 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.h */ = {isa = PBXBuildFile; fileRef = 5BD5421C218E4EFAB6353B1B /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.h */; };
+		E3F483B7878D45F6B9E9F4F3 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.h */ = {isa = PBXBuildFile; fileRef = 6A1B9F3A33054F7990ED6094 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.h */; };
+		E5A81049E34649D5AFA97B74 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.cpp */ = {isa = PBXBuildFile; fileRef = 92D9CF005CF14D4E95C0D2CA /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.cpp */; };
+		EBACD6D575444D74B20AF698 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/LockFreeFIFO.h */ = {isa = PBXBuildFile; fileRef = 6691572855ED4860A5DBD217 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/LockFreeFIFO.h */; };
+		EBF9EB0E4F564E28840579E5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.cpp */ = {isa = PBXBuildFile; fileRef = A3479204024B42A2AE051D79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.cpp */; };
+		EC08121EA96245848528BAF6 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.cpp */ = {isa = PBXBuildFile; fileRef = 8122AE9A2074487785BE06C3 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.cpp */; };
+		EEE68A4C2C4E47D78C5B892E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAException.h */ = {isa = PBXBuildFile; fileRef = B54BAEB977644AF1818EBBEC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAException.h */; };
+		F436B23AAAFD46F39ECAE84A /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.h */ = {isa = PBXBuildFile; fileRef = 5CA59D0B60E94D80948DF852 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.h */; };
+		F48E984DBC594667BCE7936D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.h */ = {isa = PBXBuildFile; fileRef = 786EBC3D66684E70B02D6A5C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.h */; };
+		F5593D2CD0644BAE84416B8E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.h */ = {isa = PBXBuildFile; fileRef = AEC624E9657D40B2BB1AA03C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.h */; };
+		F7F90CA5B5D944AB90B1D6D1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.cpp */ = {isa = PBXBuildFile; fileRef = 19C90FB74EFD4B7FA29E1AF9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.cpp */; };
+		FC5CE33D67724D118D219522 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.h */ = {isa = PBXBuildFile; fileRef = 4816DDC610EC41A59D65080E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.h */; };
+		FD6A652CF2284009B109EA78 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.h */ = {isa = PBXBuildFile; fileRef = A3BA3ACDA30B40F991686E08 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		70E65824FBF34344BD22E02D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9E0F5827AC1B42ADAF4C570B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7FF9DEFAD44163A29AD0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22888862A5340E28E235938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D20D2ACBB8AF404097FD6E4F;
+			remoteInfo = ZERO_CHECK;
+		};
+		55DFC2F2C7C94593B91F62A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22888862A5340E28E235938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708AEECBB24B482D832309D2;
+			remoteInfo = JExciter_AU_CocoaUI;
+		};
+		8F9D393054714801AB7809E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22888862A5340E28E235938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16A4139FF614E33AFA8B348;
+			remoteInfo = JExciter_AU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0170E5DF054E4F038BB617D5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/resources/PluginGUI.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = PluginGUI.uidesc; path = ../../project_source/resources/PluginGUI.uidesc; sourceTree = SOURCE_ROOT; };
+		02F37E58509643BF99C6D009 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAHostTimeBase.h; path = ../../../../AU_SDK/PublicUtility/CAHostTimeBase.h; sourceTree = SOURCE_ROOT; };
+		0A6F6FA42CF9426B97AA0427 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginbase.h; path = ../../project_source/source/PluginKernel/pluginbase.h; sourceTree = SOURCE_ROOT; };
+		0B562CD637EC469C99BF3BEE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUBase.h; path = ../../../../AU_SDK/AUPublic/AUBase/AUBase.h; sourceTree = SOURCE_ROOT; };
+		157BF5C13F15428E9BA14D07 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUMIDIEffectBase.cpp; path = ../../../../AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.cpp; sourceTree = SOURCE_ROOT; };
+		176ABFCF475B41828ECC8AB8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aufxplugin.h; path = ../../project_source/source/au_source/aufxplugin.h; sourceTree = SOURCE_ROOT; };
+		19C90FB74EFD4B7FA29E1AF9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUBaseHelper.cpp; path = ../../../../AU_SDK/AUPublic/Utility/AUBaseHelper.cpp; sourceTree = SOURCE_ROOT; };
+		1B1C9DF885144C8D96D7AB3E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CADebugMacros.h; path = ../../../../AU_SDK/PublicUtility/CADebugMacros.h; sourceTree = SOURCE_ROOT; };
+		21F0BAC7CD0E49EAB3791D0C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAMutex.cpp; path = ../../../../AU_SDK/PublicUtility/CAMutex.cpp; sourceTree = SOURCE_ROOT; };
+		2833381F46DB4F368A259715 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CADebugger.h; path = ../../../../AU_SDK/PublicUtility/CADebugger.h; sourceTree = SOURCE_ROOT; };
+		2B2B30901D16437788A165FD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUDispatch.h; path = ../../../../AU_SDK/AUPublic/AUBase/AUDispatch.h; sourceTree = SOURCE_ROOT; };
+		2BBF19C53FCD4449B0D63B53 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginparameter.h; path = ../../project_source/source/PluginKernel/pluginparameter.h; sourceTree = SOURCE_ROOT; };
+		2ECED65D91974BCABEA6F634 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUBase.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/AUBase.cpp; sourceTree = SOURCE_ROOT; };
+		2F4A9F141389453E81CEBBC2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUInstrumentBase.cpp; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.cpp; sourceTree = SOURCE_ROOT; };
+		3890E7EBD0C24F41BDB0159E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ../../project_source/cmake/au_cmake/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3C585098D74F457DB841214C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = customcontrols.h; path = ../../project_source/source/CustomControls/customcontrols.h; sourceTree = SOURCE_ROOT; };
+		3F282A50F8094BCE899C0A7D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUEffectBase.h; path = ../../../../AU_SDK/AUPublic/OtherBases/AUEffectBase.h; sourceTree = SOURCE_ROOT; };
+		45C6AFF6CDA84594A2764A40 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SynthElement.cpp; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthElement.cpp; sourceTree = SOURCE_ROOT; };
+		4816DDC610EC41A59D65080E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAXException.h; path = ../../../../AU_SDK/PublicUtility/CAXException.h; sourceTree = SOURCE_ROOT; };
+		485225E582A6471EB9DF34A3 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/cmake/au_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4C3CE21F9C0A4CF295691A3F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ComponentBase.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/ComponentBase.cpp; sourceTree = SOURCE_ROOT; };
+		50670534ABAB418691EB822A /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugindescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugindescription.h; path = ../../project_source/source/PluginKernel/plugindescription.h; sourceTree = SOURCE_ROOT; };
+		57FC5A5D46814213B599B0F8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/readerwriterqueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = readerwriterqueue.h; path = ../../project_source/source/CustomControls/readerwriterqueue.h; sourceTree = SOURCE_ROOT; };
+		599684CBB8D5492AAC48D29F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUMIDIDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUMIDIDefs.h; path = ../../../../AU_SDK/AUPublic/Utility/AUMIDIDefs.h; sourceTree = SOURCE_ROOT; };
+		599D151479314ADA8DB7A81E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CABufferList.cpp; path = ../../../../AU_SDK/PublicUtility/CABufferList.cpp; sourceTree = SOURCE_ROOT; };
+		5B4BE49A327F4A58A231F6C8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAReferenceCounted.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAReferenceCounted.h; path = ../../../../AU_SDK/PublicUtility/CAReferenceCounted.h; sourceTree = SOURCE_ROOT; };
+		5BD5421C218E4EFAB6353B1B /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAMutex.h; path = ../../../../AU_SDK/PublicUtility/CAMutex.h; sourceTree = SOURCE_ROOT; };
+		5CA59D0B60E94D80948DF852 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAStreamBasicDescription.h; path = ../../../../AU_SDK/PublicUtility/CAStreamBasicDescription.h; sourceTree = SOURCE_ROOT; };
+		5DBDEF0074814FDEBC20B071 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAHostTimeBase.cpp; path = ../../../../AU_SDK/PublicUtility/CAHostTimeBase.cpp; sourceTree = SOURCE_ROOT; };
+		5F328591FDA74665A832DD5D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUMIDIBase.cpp; path = ../../../../AU_SDK/AUPublic/OtherBases/AUMIDIBase.cpp; sourceTree = SOURCE_ROOT; };
+		61D53184941B45898600A3A0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CADebugger.cpp; path = ../../../../AU_SDK/PublicUtility/CADebugger.cpp; sourceTree = SOURCE_ROOT; };
+		6691572855ED4860A5DBD217 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/LockFreeFIFO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LockFreeFIFO.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/LockFreeFIFO.h; sourceTree = SOURCE_ROOT; };
+		683D34AD40684A1E9DEF3CED /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUBuffer.h; path = ../../../../AU_SDK/AUPublic/Utility/AUBuffer.h; sourceTree = SOURCE_ROOT; };
+		6890BA3B8A0C42A9A6DE173D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ../../project_source/cmake/au_cmake/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		68E4D5F4D9AB4ECE8C32D9E7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUInstrumentBase.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.h; sourceTree = SOURCE_ROOT; };
+		6A1B9F3A33054F7990ED6094 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = customviews.h; path = ../../project_source/source/CustomControls/customviews.h; sourceTree = SOURCE_ROOT; };
+		6B48FD7E82454BF08144EB41 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginstructures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginstructures.h; path = ../../project_source/source/PluginKernel/pluginstructures.h; sourceTree = SOURCE_ROOT; };
+		6D7E7D24413D4DE09C158103 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAVectorUnit.h; path = ../../../../AU_SDK/PublicUtility/CAVectorUnit.h; sourceTree = SOURCE_ROOT; };
+		6EAFE07642324584AD1FA4F7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAGuard.h; path = ../../../../AU_SDK/PublicUtility/CAGuard.h; sourceTree = SOURCE_ROOT; };
+		6F24931E7084462E86FCCDDC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUOutputElement.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/AUOutputElement.cpp; sourceTree = SOURCE_ROOT; };
+		6FF2D11486854109B5622EBF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CABufferList.h; path = ../../../../AU_SDK/PublicUtility/CABufferList.h; sourceTree = SOURCE_ROOT; };
+		707442F02EB54A078B45AD4E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SynthNoteList.cpp; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.cpp; sourceTree = SOURCE_ROOT; };
+		73EFFB4A6FA64C64BED91C39 /* JExciter_AU_CocoaUI */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = JExciter_AU_CocoaUI.bundle/Contents/MacOS/JExciter_AU_CocoaUI; sourceTree = BUILT_PRODUCTS_DIR; };
+		78415DD2A9AD41C4A1730D10 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAByteOrder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAByteOrder.h; path = ../../../../AU_SDK/PublicUtility/CAByteOrder.h; sourceTree = SOURCE_ROOT; };
+		786EBC3D66684E70B02D6A5C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUPlugInDispatch.h; path = ../../../../AU_SDK/AUPublic/AUBase/AUPlugInDispatch.h; sourceTree = SOURCE_ROOT; };
+		79ABD2E10D9444C2BE9F9F64 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAGuard.cpp; path = ../../../../AU_SDK/PublicUtility/CAGuard.cpp; sourceTree = SOURCE_ROOT; };
+		7EBBBA208C5E4EEB8FC41227 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUScopeElement.h; path = ../../../../AU_SDK/AUPublic/AUBase/AUScopeElement.h; sourceTree = SOURCE_ROOT; };
+		8122AE9A2074487785BE06C3 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAAudioChannelLayout.cpp; path = ../../../../AU_SDK/PublicUtility/CAAudioChannelLayout.cpp; sourceTree = SOURCE_ROOT; };
+		8197C3EE2BA648D1A6E575A4 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugingui.cpp; path = ../../project_source/source/PluginKernel/plugingui.cpp; sourceTree = SOURCE_ROOT; };
+		81C588F06C94478AAF6BAD56 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CADebugPrintf.cpp; path = ../../../../AU_SDK/PublicUtility/CADebugPrintf.cpp; sourceTree = SOURCE_ROOT; };
+		8BF2F3272DAF485A9002E7FB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUScopeElement.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/AUScopeElement.cpp; sourceTree = SOURCE_ROOT; };
+		8C7ABFE6ACB64145AFE14922 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUMIDIBase.h; path = ../../../../AU_SDK/AUPublic/OtherBases/AUMIDIBase.h; sourceTree = SOURCE_ROOT; };
+		8C7ADCFA119246EC9A8417C0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = vstgui_mac.mm; path = ../../../vstgui4/vstgui/vstgui_mac.mm; sourceTree = SOURCE_ROOT; };
+		9283E51F4D7E4D5E8CC6F517 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aufxplugin.cpp; path = ../../project_source/source/au_source/aufxplugin.cpp; sourceTree = SOURCE_ROOT; };
+		92D9CF005CF14D4E95C0D2CA /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugincore.cpp; path = ../../project_source/source/PluginKernel/plugincore.cpp; sourceTree = SOURCE_ROOT; };
+		92F7AE8E30024E9DB876A988 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SynthNote.cpp; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthNote.cpp; sourceTree = SOURCE_ROOT; };
+		93B858CF18954E0DBCDB1A8D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUMIDIEffectBase.h; path = ../../../../AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.h; sourceTree = SOURCE_ROOT; };
+		9550BCA3CB104B7BA270AC12 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginbase.cpp; path = ../../project_source/source/PluginKernel/pluginbase.cpp; sourceTree = SOURCE_ROOT; };
+		97D0FBDE2938441AB31702AE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAMath.h; path = ../../../../AU_SDK/PublicUtility/CAMath.h; sourceTree = SOURCE_ROOT; };
+		97D40F892F19413C96BD10AF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ComponentBase.h; path = ../../../../AU_SDK/AUPublic/AUBase/ComponentBase.h; sourceTree = SOURCE_ROOT; };
+		99E95770EDF7471CA97FB9AB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAXException.cpp; path = ../../../../AU_SDK/PublicUtility/CAXException.cpp; sourceTree = SOURCE_ROOT; };
+		9A5403E4E852411E877EB70D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthNote.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthNote.h; sourceTree = SOURCE_ROOT; };
+		9D8F8747E9F649F5B49A25BB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/guiconstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = guiconstants.h; path = ../../project_source/source/PluginKernel/guiconstants.h; sourceTree = SOURCE_ROOT; };
+		A0B98D09DF7E4D34A184C260 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/atomicops.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = atomicops.h; path = ../../project_source/source/CustomControls/atomicops.h; sourceTree = SOURCE_ROOT; };
+		A3479204024B42A2AE051D79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAStreamBasicDescription.cpp; path = ../../../../AU_SDK/PublicUtility/CAStreamBasicDescription.cpp; sourceTree = SOURCE_ROOT; };
+		A354ABFACC7843379D36E487 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MusicDeviceBase.cpp; path = ../../../../AU_SDK/AUPublic/OtherBases/MusicDeviceBase.cpp; sourceTree = SOURCE_ROOT; };
+		A3BA3ACDA30B40F991686E08 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthElement.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthElement.h; sourceTree = SOURCE_ROOT; };
+		A6AB91A4069A480C8B0A126C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginparameter.cpp; path = ../../project_source/source/PluginKernel/pluginparameter.cpp; sourceTree = SOURCE_ROOT; };
+		A75F429C23CB4D02B7F51022 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUPlugInDispatch.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/AUPlugInDispatch.cpp; sourceTree = SOURCE_ROOT; };
+		A900C20492A5471C8F8DB4FD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnitTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAVectorUnitTypes.h; path = ../../../../AU_SDK/PublicUtility/CAVectorUnitTypes.h; sourceTree = SOURCE_ROOT; };
+		ADAD44E0962741939B922BF0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/MIDIControlHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MIDIControlHandler.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/MIDIControlHandler.h; sourceTree = SOURCE_ROOT; };
+		AEC624E9657D40B2BB1AA03C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUBaseHelper.h; path = ../../../../AU_SDK/AUPublic/Utility/AUBaseHelper.h; sourceTree = SOURCE_ROOT; };
+		B213D73D3DFD46D1901B6AEF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUEffectBase.cpp; path = ../../../../AU_SDK/AUPublic/OtherBases/AUEffectBase.cpp; sourceTree = SOURCE_ROOT; };
+		B40AAF5964FC4179A8304731 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAutoDisposer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAAutoDisposer.h; path = ../../../../AU_SDK/PublicUtility/CAAutoDisposer.h; sourceTree = SOURCE_ROOT; };
+		B54BAEB977644AF1818EBBEC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAException.h; path = ../../../../AU_SDK/PublicUtility/CAException.h; sourceTree = SOURCE_ROOT; };
+		B8389C50C38148FB9998B4F9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MusicDeviceBase.h; path = ../../../../AU_SDK/AUPublic/OtherBases/MusicDeviceBase.h; sourceTree = SOURCE_ROOT; };
+		B84CDED35C1A4D8883B2D6EC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAAudioChannelLayout.h; path = ../../../../AU_SDK/PublicUtility/CAAudioChannelLayout.h; sourceTree = SOURCE_ROOT; };
+		BC3721D2ECA247ABB0E126BC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUInputElement.h; path = ../../../../AU_SDK/AUPublic/AUBase/AUInputElement.h; sourceTree = SOURCE_ROOT; };
+		BD7840C1C73F4734949FD915 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUBuffer.cpp; path = ../../../../AU_SDK/AUPublic/Utility/AUBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		C2AFEB0BF50343A79D52CFFB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomicStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAAtomicStack.h; path = ../../../../AU_SDK/PublicUtility/CAAtomicStack.h; sourceTree = SOURCE_ROOT; };
+		C3348525AA634027A6CB9B74 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUSilentTimeout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUSilentTimeout.h; path = ../../../../AU_SDK/AUPublic/Utility/AUSilentTimeout.h; sourceTree = SOURCE_ROOT; };
+		C5739ECFAC1248C0BCD540F5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CALogMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CALogMacros.h; path = ../../../../AU_SDK/PublicUtility/CALogMacros.h; sourceTree = SOURCE_ROOT; };
+		C62C55F068F04817BEAFFE83 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthNoteList.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.h; sourceTree = SOURCE_ROOT; };
+		C6B091012FBD48ED9BF86127 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUDispatch.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/AUDispatch.cpp; sourceTree = SOURCE_ROOT; };
+		C8DF74C48BEF4C15A76BC2B1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CAVectorUnit.cpp; path = ../../../../AU_SDK/PublicUtility/CAVectorUnit.cpp; sourceTree = SOURCE_ROOT; };
+		CB102DA3045443B9AA12FA44 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAThreadSafeList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAThreadSafeList.h; path = ../../../../AU_SDK/PublicUtility/CAThreadSafeList.h; sourceTree = SOURCE_ROOT; };
+		CBB28A8B58F94896BD53B9F0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = customcontrols.cpp; path = ../../project_source/source/CustomControls/customcontrols.cpp; sourceTree = SOURCE_ROOT; };
+		D51B21A34E064DC5BBD12696 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CADebugMacros.cpp; path = ../../../../AU_SDK/PublicUtility/CADebugMacros.cpp; sourceTree = SOURCE_ROOT; };
+		D70647BEC50F46CD820164D9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthEvent.h; path = ../../../../AU_SDK/AUPublic/AUInstrumentBase/SynthEvent.h; sourceTree = SOURCE_ROOT; };
+		DE32B0F21A8D4B2CB52A8BCA /* JExciter_AU */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = JExciter_AU.bundle/Contents/MacOS/JExciter_AU; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFBF21DC29443E695AE9248 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AUInputElement.cpp; path = ../../../../AU_SDK/AUPublic/AUBase/AUInputElement.cpp; sourceTree = SOURCE_ROOT; };
+		E578A6820300412EA34A6822 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CADebugPrintf.h; path = ../../../../AU_SDK/PublicUtility/CADebugPrintf.h; sourceTree = SOURCE_ROOT; };
+		E9B750AF7B2E4D2DBEBD2C91 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/cocoa_ui/aucocoaviewfactory.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = aucocoaviewfactory.mm; path = ../../project_source/source/au_source/cocoa_ui/aucocoaviewfactory.mm; sourceTree = SOURCE_ROOT; };
+		EC2E28B294E549999270CE79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = customviews.cpp; path = ../../project_source/source/CustomControls/customviews.cpp; sourceTree = SOURCE_ROOT; };
+		EF23D8186A2A44B890C59499 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AUOutputElement.h; path = ../../../../AU_SDK/AUPublic/AUBase/AUOutputElement.h; sourceTree = SOURCE_ROOT; };
+		F1D1D44034C0408A90665641 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugingui.h; path = ../../project_source/source/PluginKernel/plugingui.h; sourceTree = SOURCE_ROOT; };
+		F523A23861D44F709B86991E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CAAtomic.h; path = ../../../../AU_SDK/PublicUtility/CAAtomic.h; sourceTree = SOURCE_ROOT; };
+		F71BB12D5EE248569115D149 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_uidescription_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = vstgui_uidescription_mac.mm; path = ../../../vstgui4/vstgui/vstgui_uidescription_mac.mm; sourceTree = SOURCE_ROOT; };
+		F7B5A4C9F28C4C6BB2C4A5D2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugincore.h; path = ../../project_source/source/PluginKernel/plugincore.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1ED43E389B4503B4305388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E086E67BCB864C2CA319C0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBB855DCB774C4CA391EDF6 /* PluginKernel */ = {
+			isa = PBXGroup;
+			children = (
+				9D8F8747E9F649F5B49A25BB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/guiconstants.h */,
+				9550BCA3CB104B7BA270AC12 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.cpp */,
+				0A6F6FA42CF9426B97AA0427 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.h */,
+				92D9CF005CF14D4E95C0D2CA /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.cpp */,
+				F7B5A4C9F28C4C6BB2C4A5D2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.h */,
+				50670534ABAB418691EB822A /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugindescription.h */,
+				8197C3EE2BA648D1A6E575A4 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.cpp */,
+				F1D1D44034C0408A90665641 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.h */,
+				A6AB91A4069A480C8B0A126C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.cpp */,
+				2BBF19C53FCD4449B0D63B53 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.h */,
+				6B48FD7E82454BF08144EB41 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginstructures.h */,
+			);
+			name = PluginKernel;
+			sourceTree = "<group>";
+		};
+		1127FA352B3B4344BFFC3382 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0170E5DF054E4F038BB617D5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/resources/PluginGUI.uidesc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2EAE4DAC7F364F649F977BB0 /* JExciter_AU_CocoaUI */ = {
+			isa = PBXGroup;
+			children = (
+				930C545F86FA43DE8B35A4D2 /* Source Files */,
+				6890BA3B8A0C42A9A6DE173D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */,
+			);
+			name = JExciter_AU_CocoaUI;
+			sourceTree = "<group>";
+		};
+		2F047CDE89C447D587979950 /* AUSDK */ = {
+			isa = PBXGroup;
+			children = (
+				727C5BAF995B4B8787F7090B /* AUBase */,
+				4563F4DDE78F4C21870C3B81 /* AUInstrumentBase */,
+				ABA2A83D12D4435DAA40A1F2 /* OtherBases */,
+				BFDF3283EFD942A99E65898F /* Utility */,
+				D7A1E50059B544E5B59A3E8D /* PublicUtility */,
+			);
+			name = AUSDK;
+			sourceTree = "<group>";
+		};
+		4563F4DDE78F4C21870C3B81 /* AUInstrumentBase */ = {
+			isa = PBXGroup;
+			children = (
+				2F4A9F141389453E81CEBBC2 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.cpp */,
+				68E4D5F4D9AB4ECE8C32D9E7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.h */,
+				6691572855ED4860A5DBD217 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/LockFreeFIFO.h */,
+				ADAD44E0962741939B922BF0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/MIDIControlHandler.h */,
+				45C6AFF6CDA84594A2764A40 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.cpp */,
+				A3BA3ACDA30B40F991686E08 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.h */,
+				D70647BEC50F46CD820164D9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthEvent.h */,
+				92F7AE8E30024E9DB876A988 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.cpp */,
+				9A5403E4E852411E877EB70D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.h */,
+				707442F02EB54A078B45AD4E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.cpp */,
+				C62C55F068F04817BEAFFE83 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.h */,
+			);
+			name = AUInstrumentBase;
+			sourceTree = "<group>";
+		};
+		56A0A8FF675144BEB9DED83C /* AUCore */ = {
+			isa = PBXGroup;
+			children = (
+				9283E51F4D7E4D5E8CC6F517 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.cpp */,
+				176ABFCF475B41828ECC8AB8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.h */,
+			);
+			name = AUCore;
+			sourceTree = "<group>";
+		};
+		5CCC02D314674470A6A6F51A /* vstgui4 */ = {
+			isa = PBXGroup;
+			children = (
+				8C7ADCFA119246EC9A8417C0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_mac.mm */,
+				F71BB12D5EE248569115D149 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_uidescription_mac.mm */,
+			);
+			name = vstgui4;
+			sourceTree = "<group>";
+		};
+		727C5BAF995B4B8787F7090B /* AUBase */ = {
+			isa = PBXGroup;
+			children = (
+				2ECED65D91974BCABEA6F634 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.cpp */,
+				0B562CD637EC469C99BF3BEE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.h */,
+				C6B091012FBD48ED9BF86127 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.cpp */,
+				2B2B30901D16437788A165FD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.h */,
+				DEFBF21DC29443E695AE9248 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.cpp */,
+				BC3721D2ECA247ABB0E126BC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.h */,
+				6F24931E7084462E86FCCDDC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.cpp */,
+				EF23D8186A2A44B890C59499 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.h */,
+				A75F429C23CB4D02B7F51022 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.cpp */,
+				786EBC3D66684E70B02D6A5C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.h */,
+				8BF2F3272DAF485A9002E7FB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.cpp */,
+				7EBBBA208C5E4EEB8FC41227 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.h */,
+				4C3CE21F9C0A4CF295691A3F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.cpp */,
+				97D40F892F19413C96BD10AF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.h */,
+			);
+			name = AUBase;
+			sourceTree = "<group>";
+		};
+		75BE4D93D1C6432488F9ADA4 /* CustomVSTGUI */ = {
+			isa = PBXGroup;
+			children = (
+				A0B98D09DF7E4D34A184C260 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/atomicops.h */,
+				CBB28A8B58F94896BD53B9F0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.cpp */,
+				3C585098D74F457DB841214C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.h */,
+				EC2E28B294E549999270CE79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.cpp */,
+				6A1B9F3A33054F7990ED6094 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.h */,
+				57FC5A5D46814213B599B0F8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/readerwriterqueue.h */,
+			);
+			name = CustomVSTGUI;
+			sourceTree = "<group>";
+		};
+		930C545F86FA43DE8B35A4D2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B750AF7B2E4D2DBEBD2C91 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/cocoa_ui/aucocoaviewfactory.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ABA2A83D12D4435DAA40A1F2 /* OtherBases */ = {
+			isa = PBXGroup;
+			children = (
+				B213D73D3DFD46D1901B6AEF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.cpp */,
+				3F282A50F8094BCE899C0A7D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.h */,
+				5F328591FDA74665A832DD5D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.cpp */,
+				8C7ABFE6ACB64145AFE14922 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.h */,
+				157BF5C13F15428E9BA14D07 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.cpp */,
+				93B858CF18954E0DBCDB1A8D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.h */,
+				A354ABFACC7843379D36E487 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.cpp */,
+				B8389C50C38148FB9998B4F9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.h */,
+			);
+			name = OtherBases;
+			sourceTree = "<group>";
+		};
+		BFDF3283EFD942A99E65898F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				19C90FB74EFD4B7FA29E1AF9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.cpp */,
+				AEC624E9657D40B2BB1AA03C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.h */,
+				BD7840C1C73F4734949FD915 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.cpp */,
+				683D34AD40684A1E9DEF3CED /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.h */,
+				599684CBB8D5492AAC48D29F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUMIDIDefs.h */,
+				C3348525AA634027A6CB9B74 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUSilentTimeout.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		C62B4BB570DE4E8B804B2959 = {
+			isa = PBXGroup;
+			children = (
+				F0D7B77C71F94541B1BA3102 /* ALL_BUILD */,
+				F3407102938F4B0599192D43 /* JExciter_AU */,
+				2EAE4DAC7F364F649F977BB0 /* JExciter_AU_CocoaUI */,
+				EB03890320C7457A9391E06E /* Products */,
+				D93E5A502EF547B3894B45FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A1E50059B544E5B59A3E8D /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				F523A23861D44F709B86991E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomic.h */,
+				C2AFEB0BF50343A79D52CFFB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAtomicStack.h */,
+				8122AE9A2074487785BE06C3 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.cpp */,
+				B84CDED35C1A4D8883B2D6EC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.h */,
+				B40AAF5964FC4179A8304731 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAutoDisposer.h */,
+				599D151479314ADA8DB7A81E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.cpp */,
+				6FF2D11486854109B5622EBF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.h */,
+				78415DD2A9AD41C4A1730D10 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAByteOrder.h */,
+				D51B21A34E064DC5BBD12696 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.cpp */,
+				1B1C9DF885144C8D96D7AB3E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.h */,
+				81C588F06C94478AAF6BAD56 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.cpp */,
+				E578A6820300412EA34A6822 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.h */,
+				61D53184941B45898600A3A0 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.cpp */,
+				2833381F46DB4F368A259715 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.h */,
+				B54BAEB977644AF1818EBBEC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAException.h */,
+				79ABD2E10D9444C2BE9F9F64 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.cpp */,
+				6EAFE07642324584AD1FA4F7 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.h */,
+				5DBDEF0074814FDEBC20B071 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.cpp */,
+				02F37E58509643BF99C6D009 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.h */,
+				C5739ECFAC1248C0BCD540F5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CALogMacros.h */,
+				97D0FBDE2938441AB31702AE /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMath.h */,
+				21F0BAC7CD0E49EAB3791D0C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.cpp */,
+				5BD5421C218E4EFAB6353B1B /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.h */,
+				5B4BE49A327F4A58A231F6C8 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAReferenceCounted.h */,
+				A3479204024B42A2AE051D79 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.cpp */,
+				5CA59D0B60E94D80948DF852 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.h */,
+				CB102DA3045443B9AA12FA44 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAThreadSafeList.h */,
+				C8DF74C48BEF4C15A76BC2B1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.cpp */,
+				6D7E7D24413D4DE09C158103 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.h */,
+				A900C20492A5471C8F8DB4FD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnitTypes.h */,
+				99E95770EDF7471CA97FB9AB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.cpp */,
+				4816DDC610EC41A59D65080E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.h */,
+			);
+			name = PublicUtility;
+			sourceTree = "<group>";
+		};
+		D93E5A502EF547B3894B45FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB03890320C7457A9391E06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE32B0F21A8D4B2CB52A8BCA /* JExciter_AU */,
+				73EFFB4A6FA64C64BED91C39 /* JExciter_AU_CocoaUI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0D7B77C71F94541B1BA3102 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FBA6DC53D9284E30A63915D1 /* CMake Rules */,
+				485225E582A6471EB9DF34A3 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/cmake/au_cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F3407102938F4B0599192D43 /* JExciter_AU */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB855DCB774C4CA391EDF6 /* PluginKernel */,
+				56A0A8FF675144BEB9DED83C /* AUCore */,
+				5CCC02D314674470A6A6F51A /* vstgui4 */,
+				75BE4D93D1C6432488F9ADA4 /* CustomVSTGUI */,
+				2F047CDE89C447D587979950 /* AUSDK */,
+				1127FA352B3B4344BFFC3382 /* Resources */,
+				3890E7EBD0C24F41BDB0159E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/CMakeLists.txt */,
+			);
+			name = JExciter_AU;
+			sourceTree = "<group>";
+		};
+		FBA6DC53D9284E30A63915D1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708AEECBB24B482D832309D2 /* JExciter_AU_CocoaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF09CF231C94C2ABB2AE330 /* Build configuration list for PBXNativeTarget "JExciter_AU_CocoaUI" */;
+			buildPhases = (
+				FCAFAF25382448D996AC18AA /* Sources */,
+				DB1ED43E389B4503B4305388 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JExciter_AU_CocoaUI;
+			productName = JExciter_AU_CocoaUI;
+			productReference = 73EFFB4A6FA64C64BED91C39 /* JExciter_AU_CocoaUI */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C16A4139FF614E33AFA8B348 /* JExciter_AU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB614710F94410DADC54F6E /* Build configuration list for PBXNativeTarget "JExciter_AU" */;
+			buildPhases = (
+				177A6CA64B464C29BED441B5 /* Resources */,
+				591FEF84FA5045B7BD2A4317 /* Sources */,
+				E086E67BCB864C2CA319C0BD /* Frameworks */,
+				F422BF5CCCA77C52B8F7777F /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JExciter_AU;
+			productName = JExciter_AU;
+			productReference = DE32B0F21A8D4B2CB52A8BCA /* JExciter_AU */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22888862A5340E28E235938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 7BDC77BBA82F40D0BD7AC05B /* Build configuration list for PBXProject "JExciter_AU" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9E0F5827AC1B42ADAF4C570B /* Debug */,
+				70E65824FBF34344BD22E02D /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C62B4BB570DE4E8B804B2959;
+			projectDirPath = ../../../cmake/au_cmake;
+			projectRoot = "";
+			targets = (
+				CC8AA7A74DFE4A4DBB2024B2 /* ALL_BUILD */,
+				C16A4139FF614E33AFA8B348 /* JExciter_AU */,
+				708AEECBB24B482D832309D2 /* JExciter_AU_CocoaUI */,
+				D20D2ACBB8AF404097FD6E4F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		79BD6D5AE3C8F65617B86416 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake
+  make -f /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake
+  make -f /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CCA1B17BEB976A226A09B8EB /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F422BF5CCCA77C52B8F7777F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E remove_directory /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Debug/JExciter_AU.component/Contents/Resources/JExciter_AU.bundle
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Debug/JExciter_AU.bundle /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Debug/JExciter_AU.component/Contents/Resources/JExciter_AU.bundle
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E remove_directory ~/Library/Audio/Plug-Ins/Components/JExciter_AU.component
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Debug/JExciter_AU.component ~/Library/Audio/Plug-Ins/Components/JExciter_AU.component
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E remove_directory /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Release/JExciter_AU.component/Contents/Resources/JExciter_AU.bundle
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Release/JExciter_AU.bundle /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Release/JExciter_AU.component/Contents/Resources/JExciter_AU.bundle
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E remove_directory ~/Library/Audio/Plug-Ins/Components/JExciter_AU.component
+  cd /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Release/JExciter_AU.component ~/Library/Audio/Plug-Ins/Components/JExciter_AU.component
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177A6CA64B464C29BED441B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FDF68D514C4A4C9156F90D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/resources/PluginGUI.uidesc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591FEF84FA5045B7BD2A4317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E523D9FE3D148DB9BD7FF8C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUBase.cpp */,
+				18CAAE2074B542BBAB2F450E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUDispatch.cpp */,
+				BF45746A4BED40079AD6797C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUInputElement.cpp */,
+				1F8AD4D4854E448DACECC9DD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUOutputElement.cpp */,
+				2E61D9EA2D4A4557B766228F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUPlugInDispatch.cpp */,
+				66A84B670E05440BAF21AAC9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/AUScopeElement.cpp */,
+				3704A4DFD0C941FC8CAE449E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase/ComponentBase.cpp */,
+				020E27E1682F4624A976640C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/AUInstrumentBase.cpp */,
+				A8FC574772FC42DFA2C01E4E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthElement.cpp */,
+				C52D7F183187419489789AE4 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNote.cpp */,
+				250035200E40483299743DB5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase/SynthNoteList.cpp */,
+				AE5D567DB2C845A397B827FC /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUEffectBase.cpp */,
+				10021ABCF085463DBDFF8565 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIBase.cpp */,
+				A95E03FC96554C4DA56DDB4C /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/AUMIDIEffectBase.cpp */,
+				74E11C38D240431EAC7FF587 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases/MusicDeviceBase.cpp */,
+				F7F90CA5B5D944AB90B1D6D1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBaseHelper.cpp */,
+				9DACE1F285EB44EDAA0B859D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility/AUBuffer.cpp */,
+				EC08121EA96245848528BAF6 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAAudioChannelLayout.cpp */,
+				98C228CF3D8C464CA0F7ACCB /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CABufferList.cpp */,
+				B74B42DD85514B66801096AD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugMacros.cpp */,
+				BC234E49BFC54590BEF41FDD /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugPrintf.cpp */,
+				153423E509564DBCA007946D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CADebugger.cpp */,
+				37E5A5BD12A444ADAA044CA5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAGuard.cpp */,
+				63FC66BB4C3848A180BBBEF6 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAHostTimeBase.cpp */,
+				2A8D366273094393A0CB4D01 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAMutex.cpp */,
+				EBF9EB0E4F564E28840579E5 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAStreamBasicDescription.cpp */,
+				74534F1F10784011BBFD0A8E /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAVectorUnit.cpp */,
+				D6645D5A47044B0194E4271F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility/CAXException.cpp */,
+				81A24D18DD1343DBB82E002F /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customcontrols.cpp */,
+				99803921DA974E57ADA37CDF /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/CustomControls/customviews.cpp */,
+				D0C0DF45A7604F29869F80D9 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginbase.cpp */,
+				E5A81049E34649D5AFA97B74 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugincore.cpp */,
+				86F83A0D61E34425870323F1 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/plugingui.cpp */,
+				88A738567EA44A5F84152933 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/PluginKernel/pluginparameter.cpp */,
+				168BEB48AEB543D08A43AC0D /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/aufxplugin.cpp */,
+				5C68134254DC41E1BD1E4B64 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_mac.mm */,
+				CA5BA6B8D53646F5AE115D61 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4/vstgui/vstgui_uidescription_mac.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAFAF25382448D996AC18AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0200E8A2A544942B13DCF54 /* /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/source/au_source/cocoa_ui/aucocoaviewfactory.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA5B292E0C34368AB5A32E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708AEECBB24B482D832309D2 /* JExciter_AU_CocoaUI */;
+			targetProxy = 55DFC2F2C7C94593B91F62A4 /* PBXContainerItemProxy */;
+		};
+		B2DAAB14CE504F098205FCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D20D2ACBB8AF404097FD6E4F /* ZERO_CHECK */;
+			targetProxy = 3A7FF9DEFAD44163A29AD0C0 /* PBXContainerItemProxy */;
+		};
+		F1E668AECD414517ADD138C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16A4139FF614E33AFA8B348 /* JExciter_AU */;
+			targetProxy = 8F9D393054714801AB7809E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004C6E48F7264E80ADA3D9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		054F616675094DA8A2BCE83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		251C5310CD1B452AA6B7A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake/build;
+			};
+			name = Release;
+		};
+		302B0BB99026424FB5C664DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake/build;
+			};
+			name = Debug;
+		};
+		408E9A89EE504D3281601D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = " AUPLUGIN=1 RELEASE=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/au_source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginKernel,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginObjects,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/CustomControls,"$(inherited)");
+				INFOPLIST_FILE = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../mac/au/cocoaInfo.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "EXECUTABLE_NAME=$(EXECUTABLE_NAME) PRODUCT_BUNDLE_IDENTIFIER=developer.au.jexciter.bundleID COCOA_VIEW_FACTORY=AUCocoaViewFactory_B376AABAA07236D0BA7270EE9CCB93C6";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=default -fvisibility-inlines-hidden '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-all_load","-framework Cocoa","-framework AudioToolbox","-framework AudioUnit");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.au.jexciter.bundleID;
+				PRODUCT_NAME = JExciter_AU;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = Yes;
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		47407EBE6EE443E9B1A3503D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = " AUPLUGIN=1 DEVELOPMENT=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/au_source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginKernel,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginObjects,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/CustomControls,"$(inherited)");
+				INFOPLIST_FILE = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../mac/au/cocoaInfo.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "EXECUTABLE_NAME=$(EXECUTABLE_NAME) PRODUCT_BUNDLE_IDENTIFIER=developer.au.jexciter.bundleID COCOA_VIEW_FACTORY=AUCocoaViewFactory_B376AABAA07236D0BA7270EE9CCB93C6";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=default -fvisibility-inlines-hidden '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-all_load","-framework Cocoa","-framework AudioToolbox","-framework AudioUnit");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.au.jexciter.bundleID;
+				PRODUCT_NAME = JExciter_AU;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = Yes;
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5164621109F34A4D92363059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		682B27CDD8C6440998152DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		85F205AAA3EF43F9BB91FA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				EXPORTED_SYMBOLS_FILE = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/au_source/aufxplugin.exp;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = " VSTGUI_LIVE_EDITING=1 AUPLUGIN=1 DEVELOPMENT=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginKernel,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginObjects,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/au_source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/CustomControls,"$(inherited)");
+				INFOPLIST_FILE = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../mac/au/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "EXECUTABLE_NAME=$(EXECUTABLE_NAME) PRODUCT_BUNDLE_IDENTIFIER=developer.au.jexciter.bundleID VENDOR_4CHAR_CODE=JEP PI_4CHAR_CODE=JEXC AU_TYPE_CODE=aufx";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=default -fvisibility-inlines-hidden '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-all_load","-framework OpenGL","-framework CoreMIDI","-framework Accelerate","-framework QuartzCore","-framework Cocoa","-framework AudioToolbox","-framework AudioUnit","-framework CoreAudio","-framework CoreFoundation");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.au.jexciter.bundleID;
+				PRODUCT_NAME = JExciter_AU;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		B2EA68351EC1484A99D6DC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/AU/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				EXPORTED_SYMBOLS_FILE = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/au_source/aufxplugin.exp;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = " AUPLUGIN=1 RELEASE=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/vstgui4,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/PublicUtility,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/Utility,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUBase,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/AUInstrumentBase,/Users/jordanevans/Documents/ASPIK/ALL_SDK/AU_SDK/AUPublic/OtherBases,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginKernel,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/PluginObjects,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/au_source,/Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../source/CustomControls,"$(inherited)");
+				INFOPLIST_FILE = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/project_source/cmake/au_cmake/../../mac/au/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "EXECUTABLE_NAME=$(EXECUTABLE_NAME) PRODUCT_BUNDLE_IDENTIFIER=developer.au.jexciter.bundleID VENDOR_4CHAR_CODE=JEP PI_4CHAR_CODE=JEXC AU_TYPE_CODE=aufx";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=default -fvisibility-inlines-hidden '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-all_load","-framework OpenGL","-framework CoreMIDI","-framework Accelerate","-framework QuartzCore","-framework Cocoa","-framework AudioToolbox","-framework AudioUnit","-framework CoreAudio","-framework CoreFoundation");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.au.jexciter.bundleID;
+				PRODUCT_NAME = JExciter_AU;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jordanevans/Documents/ASPIK/ALL_SDK/myprojects/JExciter/mac_build/project_source/cmake/au_cmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3399D5D14B497A93A10623 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054F616675094DA8A2BCE83B /* Debug */,
+				004C6E48F7264E80ADA3D9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BDC77BBA82F40D0BD7AC05B /* Build configuration list for PBXProject "JExciter_AU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302B0BB99026424FB5C664DE /* Debug */,
+				251C5310CD1B452AA6B7A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC94C2EF1AC144DC82744458 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682B27CDD8C6440998152DD2 /* Debug */,
+				5164621109F34A4D92363059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAF09CF231C94C2ABB2AE330 /* Build configuration list for PBXNativeTarget "JExciter_AU_CocoaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47407EBE6EE443E9B1A3503D /* Debug */,
+				408E9A89EE504D3281601D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAB614710F94410DADC54F6E /* Build configuration list for PBXNativeTarget "JExciter_AU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F205AAA3EF43F9BB91FA8B /* Debug */,
+				B2EA68351EC1484A99D6DC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22888862A5340E28E235938 /* Project object */;
+}

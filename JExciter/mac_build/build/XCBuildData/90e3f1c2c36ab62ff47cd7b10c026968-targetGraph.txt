@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+vstgui in JExciter_UNIVERSAL, no dependencies
+vstgui_uidescription in JExciter_UNIVERSAL, depends on:
+vstgui in JExciter_UNIVERSAL (explicit)

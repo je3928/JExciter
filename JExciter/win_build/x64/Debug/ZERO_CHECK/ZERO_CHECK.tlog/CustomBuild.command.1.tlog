@@ -1,0 +1,10 @@
+^C:\USERS\JORDAN\DOCUMENTS\ASPIK\ALL_SDK\MYPROJECTS\JEXCITER\WIN_BUILD\CMAKEFILES\76934D3A9DFFB058B95079184A7B98BC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jordan/Documents/ASPIK/ALL_SDK/myprojects/JExciter -BC:/Users/Jordan/Documents/ASPIK/ALL_SDK/myprojects/JExciter/win_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jordan/Documents/ASPIK/ALL_SDK/myprojects/JExciter/win_build/JExciter_UNIVERSAL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
